@@ -1,0 +1,51 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+
+# =========================
+# YOLO / Ultralytics Outputs
+# =========================
+runs/
+wandb/
+
+# =========================
+# Model Files (optional)
+# Uncomment jika model tidak ingin di-push
+# =========================
+# models/*.pt
+# models/*.onnx
+
+# =========================
+# Dataset (optional)
+# Uncomment jika dataset besar
+# =========================
+# data/images/
+# data/videos/
+
+# =========================
+# Logs & Temporary Files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+!.vscode/settings.json
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
